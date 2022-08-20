@@ -1,0 +1,55 @@
+html{
+    box-sizing: border-box;
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+}
+.title{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:2rem;
+    background: linear-gradient(45deg, #e7fd93, #00e5ff, #e7fd93);
+    margin-bottom: 3rem;
+}
+.container{
+    background-color: #ffffff;
+    padding: 0.3rem;
+    align-self: center;
+    justify-self: center;
+}
+.marker{
+    width: 12.5rem;
+    height: 1.56rem;
+    margin: 0.6rem auto;
+}
+.cap{
+    width: 4.5rem;
+    height: 1.56rem;
+}
+.sleeve{
+    width: 4.5rem;
+    height: 1.56rem;
+    background: rgba(255, 255, 255, 0.5);
+    border-left: 0.5rem double black;
+}
+.cap, .sleeve{
+    display: inline-block;
+}
+.red{
+    background: linear-gradient(rgb(78, 42, 42), rgb(255, 95, 95), rgb(78, 42, 42));
+    box-shadow: 0 0 1rem 0 rgba(255, 0, 0, 0.8);
+}
+.green{
+    background: linear-gradient(rgb(60, 133, 61), rgb(19, 235, 19), rgb(45, 99, 46));
+    box-shadow: 0 0 1rem 0 rgba(0, 255, 0, 0.8);
+}
+.blue{
+    background: linear-gradient(rgb(80, 69, 124), rgb(154, 164, 254), rgb(80, 69, 124));
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 255, 0.8);
+}
